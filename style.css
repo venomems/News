@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    all: unset;
+    display: revert;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+}
+
+.logo {
+    font-family: "Tiny5", sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.logo__block {
+    position: fixed;
+    padding: 40px;
+    background-color: white;
+    width: 920px;
+
+}
+
+.header {
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main-article__image {
+    width: 500px;
+    height: 450px;
+}
+
+.main-article__title {
+    font-size: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 600;
+
+}
+
+.main {
+    padding-top: 200px;
+}
+
+.main-article {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.main-article__text {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+.main-article__src {
+    border-bottom: 1px solid black;
+    font-size: 22px;
+}
