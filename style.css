@@ -13,16 +13,14 @@ body {
 
 .logo {
     font-family: "Tiny5", sans-serif;
-    font-size: 80px;
-    text-align: center;
+    font-size: 120px;
+
 }
 
 .logo__block {
-    position: fixed;
     padding: 40px;
     background-color: white;
-    width: 920px;
-
+    text-align: center;
 }
 
 .header {
@@ -31,6 +29,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+
 }
 
 .main-article__image {
@@ -48,9 +47,6 @@ body {
 
 }
 
-.main {
-    padding-top: 200px;
-}
 
 .main-article {
     max-width: 500px;
